@@ -1,0 +1,8 @@
+/* batches.module.css */
+.header {
+    margin-top: 8px;
+    color: rgb(var(--text-soft-rgb));
+    align-items: center;
+    text-transform: capitalize;
+    text-align: center;
+}

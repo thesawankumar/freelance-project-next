@@ -1,0 +1,56 @@
+.form {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.315);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.field {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.field label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+.field input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.field select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  margin-top: 25px;
+  height: 36px;
+  background-color: #c71120;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none; 
+  transition: background-color 0.2s ease;
+}
+
+.submitButton:hover {
+  background-color: #8a010c;
+}
